@@ -1,0 +1,13 @@
+# Samurai Shodown Sen - ReXGlue Native PC Recompilation Config
+
+game_data_root = "C:\\Users\\azure\\Downloads\\samsho-recomp\\extracted"
+protect_zero = false
+gpu_plugin = "xenos"
+vsync = true
+window_width = 1280
+window_height = 720
+fullscreen = false
+log_level = "debug"
+log_file = "samshosen_run.log"
+gpu_allow_invalid_fetch_constants = true
+

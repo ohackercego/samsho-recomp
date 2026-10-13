@@ -1,0 +1,26 @@
+# Compiled binaries and release archives
+release.zip
+*.zip
+*.iso
+*.pdb
+*.bmp
+*.log
+default.pe
+
+# Build directories and caches
+**/out/
+**/build/
+CMakeFiles/
+CMakeScripts/
+*.ninja_deps
+*.ninja_log
+
+# Game data
+extracted/
+
+# Runtime logs
+samshosen_run.log
+dispatch_tolerance.log
+thread_diag.log
+test_out.log
+test_err.log
