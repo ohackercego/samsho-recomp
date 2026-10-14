@@ -8,7 +8,6 @@ release.zip
 default.pe
 
 # Build directories and caches
-**/out/
 **/build/
 CMakeFiles/
 CMakeScripts/
@@ -22,3 +21,8 @@ dispatch_tolerance.log
 thread_diag.log
 test_out.log
 test_err.log
+
+# Exclude build output directory
+samsho_sen/out/
+# Exclude compiled binary
+samshosen.exe
